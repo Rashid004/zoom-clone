@@ -6,7 +6,7 @@ import { StreamVideo, StreamVideoClient } from "@stream-io/video-react-sdk";
 import { Loader2 } from "lucide-react";
 import { nanoid } from "nanoid";
 import { useEffect, useState } from "react";
-import { getToken } from "./lib/action";
+import { getToken } from "../_lib/action";
 
 // Typescript type
 interface ClientProviderProps {
